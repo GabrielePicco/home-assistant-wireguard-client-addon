@@ -1,0 +1,14 @@
+{
+  "name": "Wireguard Client",
+  "version": "1",
+  "slug": "wireguard_client",
+  "description": "A simple wireguard client",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "host_network":true,
+  "privileged": ["NET_ADMIN"],
+  "apparmor":false,
+  "options": {},
+  "schema": {}
+}
