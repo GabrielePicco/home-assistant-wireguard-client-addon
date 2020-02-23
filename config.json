@@ -7,8 +7,10 @@
   "startup": "application",
   "boot": "auto",
   "host_network":true,
-  "privileged": ["NET_ADMIN"],
+  "privileged": ["NET_ADMIN","SYS_ADMIN","SYS_MODULE"],
   "apparmor":false,
   "options": {},
+  "kernel_modules": true,
+  "full_access": true,
   "schema": {}
 }

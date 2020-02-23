@@ -18,4 +18,4 @@ RUN chmod a+x /run.sh
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-CMD [ "echo 'ciao'" ]
+CMD [ "./run.sh" ]
