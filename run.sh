@@ -1,1 +1,3 @@
-sudo wg-quick up wg0-client
+#!/bin/bash
+
+wg-quick up wg0-client
