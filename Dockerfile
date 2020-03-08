@@ -7,6 +7,7 @@ ENV LANG C.UTF-8
 
 # Setup base
 RUN apk -U upgrade
+RUN apk add -U --no-cache ip6tables
 RUN apk add -U --no-cache openresolv wireguard-tools
 
 COPY wg0-client.conf /etc/wireguard
