@@ -8,6 +8,7 @@
   "boot": "auto",
   "host_network":true,
   "privileged": ["NET_ADMIN","SYS_ADMIN","SYS_MODULE"],
+  "full_access":true,
   "apparmor":false,
   "options": {},
   "kernel_modules": true,
