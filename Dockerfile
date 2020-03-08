@@ -15,7 +15,5 @@ COPY run.sh /
 
 COPY run.sh /
 RUN chmod a+x /run.sh
-COPY run.sh /
-RUN chmod a+x /run.sh
 
 CMD [ "./run.sh" ]
