@@ -12,6 +12,4 @@ https://habr.com/en/post/449234/#_2-2-3-ip-address-overview
 
 ## Current issue: 
 
-`ip6tables-restore -n` is failing when starting the plugin on Home Assistant
-
-![alt text](https://i.imgur.com/URrk9mm.png "")
+`Setting key "net.ipv6.conf.default.forwarding": Read-only file system`
